@@ -2000,9 +2000,3 @@ INSERT NEW CSS HERE */
 .right-feature {
     background-color: #ffffff; /* Keep right features white or use a different color */
 }
-
-#about-me .features-image img {
-    max-width: 100%;
-    height: auto;
-    max-width: 600px; /* Maximum width */
-}
