@@ -1811,3 +1811,147 @@ footer p, footer a {
 
 /*About me section 
 INSERT NEW CSS HERE */
+#about-me {
+  background: #fff; /* Change background color as needed */
+  padding: 60px 20px; /* Padding for smaller screens */
+  text-align: center; /* Center aligning the text */
+}
+
+#about-me h2 {
+  color: #333; /* Dark text color for better readability */
+  margin-bottom: 20px; /* Space below the heading */
+  font-size: 2.5rem; /* Larger font size for heading */
+}
+
+#about-me p {
+  margin-bottom: 40px; /* Space below the paragraph */
+  color: #666; /* Lighter text color for the paragraph */
+  font-size: 1rem; /* Adequate font size for readability */
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto; /* Centering the list */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centering items on the cross-axis */
+}
+
+.features-list li {
+  width: 100%; /* Full width for small screens */
+  margin-bottom: 30px; /* Space between list items */
+}
+
+.features-list .iconbox {
+  font-size: 48px; /* Large size for icons */
+  margin-bottom: 20px; /* Space below icons */
+  display: block; /* Icons should take up the full line */
+}
+
+.features-box-content {
+  text-align: left; /* Align text to the left */
+}
+
+.features-box-content h6 {
+  font-size: 1.25rem; /* Larger font size for feature titles */
+  margin-bottom: 10px; /* Space below feature titles */
+}
+
+.features-box-content p {
+  font-size: 1rem; /* Standard font size for text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .features-list li {
+    width: 50%; /* Half width for tablet screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .features-list li {
+    width: 100%; /* Full width for mobile screens */
+  }
+
+  .features-box-content {
+    text-align: center; /* Center text for mobile screens */
+  }
+}
+
+
+/* Existing General Styling */
+.wrap {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.pad-sec {
+    padding: 60px 0; /* Adjust the padding as necessary */
+}
+
+/* Additions for feature sections */
+.left-features-services, .right-features-services {
+    padding: 15px;
+    margin: 0;
+}
+
+.left-features-services .features-list, .right-features-services .features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-box-content {
+    margin-left: 20px; /* Adjust space between icon and text */
+}
+
+.iconbox {
+    font-size: 2em; /* Adjust based on your design */
+    display: inline-block;
+    vertical-align: top; /* Align icon with the top of the text */
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 992px) {
+    .left-features-services, .right-features-services {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .features-box-content {
+        margin-left: 10px; /* Smaller space for mobile */
+    }
+
+    .iconbox {
+        font-size: 1.5em; /* Smaller icons for mobile */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        display: block;
+    }
+
+    .col-md-3, .col-md-6, .col-sm-8 {
+        width: 100%;
+        margin: 0 0 20px; /* Add space between stacked elements on mobile */
+    }
+
+    .col-sm-offset-2 {
+        margin: auto;
+    }
+
+    .without-padding {
+        padding: 0;
+    }
+}
+
+/* Specific to new features for clear differentiation */
+.left-feature {
+    background-color: #f0f0f0; /* Light background for left features */
+}
+
+.right-feature {
+    background-color: #ffffff; /* Keep right features white or use a different color */
+}
