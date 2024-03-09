@@ -1947,10 +1947,55 @@ INSERT NEW CSS HERE */
     }
 }
 
-/* Specific to new features for clear differentiation */
+/* Specific to new features for clear differentiation 
 .left-feature {
     background-color: #f0f0f0; /* Light background for left features */
 }
+
+
+/* About Me Section */
+#about-me .container {
+    max-width: 1170px;
+    margin: auto;
+}
+#about-me .section-title {
+    text-align: center;
+    font-size: 36px; /* Adjust based on design */
+    margin-bottom: 20px;
+}
+#about-me .section-intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#about-me .services-left, #about-me .services-right {
+    padding: 15px;
+}
+#about-me .service-item {
+    margin-bottom: 30px;
+}
+#about-me .service-icon {
+    /* Add your styles for the icons (size, color) */
+}
+#about-me .service-item h3 {
+    margin-top: 20px;
+    font-size: 24px; /* Adjust based on design */
+}
+#about-me .service-item p {
+    font-size: 16px; /* Adjust based on design */
+}
+@media (max-width: 768px) {
+    #about-me .services-left, #about-me .services-right {
+        padding: 15px;
+        text-align: center;
+    }
+    #about-me .service-item {
+        margin-bottom: 50px;
+    }
+    #about-me .row > div {
+        margin-bottom: 30px;
+    }
+}
+  
 
 .right-feature {
     background-color: #ffffff; /* Keep right features white or use a different color */
