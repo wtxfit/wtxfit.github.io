@@ -1,12 +1,8 @@
-/*
-	The7 by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
 
 /*
 
-[Table of content]
+[Table of contents]
 
 1. General Styling
 2. Header
@@ -1813,79 +1809,5 @@ footer p, footer a {
     padding: 8px;
   }
 
-/*About me section */
-#features-section {
-  padding: 60px 0;
-  background-color: #f8f8f8; /* Change this to match your color scheme */
-}
-
-#features-section .container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-#features-section .title-section {
-  margin-bottom: 30px;
-}
-
-#features-section h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-#features-section hr {
-  width: 60px;
-  border-top: 3px solid #eb7d4b; /* Change this to match your color scheme */
-  margin: 20px auto;
-}
-
-#features-section p {
-  font-size: 18px;
-}
-
-#features-section .features-list {
-  list-style: none;
-  padding: 0;
-}
-
-#features-section .features-box-content {
-  margin-left: 60px;
-}
-
-#features-section .iconbox {
-  float: left;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  background-color: #eb7d4b; /* Change this to match your color scheme */
-  color: white;
-  margin-right: 10px;
-}
-
-#features-section .without-padding {
-  padding: 0;
-}
-
-#features-section .animated {
-  opacity: 1; /* Change or remove animation properties as needed */
-}
-
-#features-section .features-image img {
-  width: 100%;
-  height: auto;
-}
-
-@media (max-width: 992px) {
-  #features-section .features-box-content {
-    margin-left: 0;
-    margin-top: 20px;
-  }
-
-  #features-section .iconbox {
-    margin: 0 auto 10px;
-    display: block;
-    float: none;
-  }
-}
-
+/*About me section 
+INSERT NEW CSS HERE */
