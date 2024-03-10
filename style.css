@@ -291,12 +291,12 @@ blockquote p {
 
 .btn-ghost:hover {
   border-color: transparent;
-  background-color:#1abc9c;
+  background-color:#e1742a;
 }
 
 .btn-ghost-dark {
-  border-color: #1abc9c;
-  color: #1abc9c;
+  border-color: #1f3250;
+  color: #e1742a;
 }
 
 /* *********************************************************
@@ -322,11 +322,10 @@ blockquote p {
 .logo {
   display: block;
   float: left;
-  width: 104px;
-  height: 46px;
+  width: 90px;
+  height: auto;
   text-indent: -9999px;
-  background: url(images/WTXheader_white.png) no-repeat;
-  background-size: 104px 46px;
+  background: url(images/WTXheader_grey.png) no-repeat;
 }
 
 .logo:hover, .logo:focus {
