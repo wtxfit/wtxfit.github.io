@@ -1957,6 +1957,7 @@ INSERT NEW CSS HERE */
 /* About Me Section */
 #about-me .container {
     max-width: 1170px;
+    align: center;
     margin: auto;
 }
 #about-me .section-title {
@@ -1997,10 +1998,3 @@ INSERT NEW CSS HERE */
     }
 }
   
-
-.kimmarginauto {
-    margin: 10px auto 20px;
-    display: block;
-}
-
-
