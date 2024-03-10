@@ -322,8 +322,8 @@ blockquote p {
 .logo {
   display: block;
   float: left;
-  width: 90px;
-  height: auto;
+  width: auto;
+  height: 46px;
   text-indent: -9999px;
   background: url(images/WTXheader_grey.png) no-repeat;
 }
@@ -421,7 +421,7 @@ blockquote p {
   display: block;
   margin-left: 20px;
   padding-bottom: 3px;
-  color: #fff;
+  color: #696969;
 }
 
 .navigation .current a, .navigation ul li a:hover, .navigation ul li a:focus {
