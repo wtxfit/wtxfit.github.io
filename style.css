@@ -1933,6 +1933,7 @@ INSERT NEW CSS HERE */
         display: block;
     }
 
+  @media only screen and (max-width: 768px) {
     .col-md-3, .col-md-6, .col-sm-8 {
         width: 100%;
         margin: 0 0 20px; /* Add space between stacked elements on mobile */
@@ -1997,6 +1998,3 @@ INSERT NEW CSS HERE */
 }
   
 
-.right-feature {
-    background-color: #ffffff; /* Keep right features white or use a different color */
-}
