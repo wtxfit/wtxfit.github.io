@@ -46,11 +46,11 @@ Grey #ECF0F1
 }
 
 a {
-  color:#1abc9c;
+  color:#e1742a;
 }
 
 a:hover {
-  color: #16a085;
+  color: #1f3250;
 }
 
 a, img, .overlay, input, textarea, .plan-wrap p, .filters .filter {
@@ -175,7 +175,7 @@ blockquote p {
 
 .btn:hover, .btn:focus, .btn-current {
   color: #fff;
-  background: #16a085;
+  background: #1f3250;
 }
 
 .btn:hover, .social-set a:hover, .team-social a i:hover, .header-carousel .owl-buttons .owl-prev:hover, .header-carousel .owl-buttons .owl-next:hover {
