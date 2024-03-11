@@ -411,9 +411,11 @@ blockquote p {
 }
 
 .navigation {
-  position: relative;
+  position: fixed;
   float: right;
-  margin: 10px 0 0 0;
+  margin: 0;
+  background-color: #1f3250; /* Replace #FFF with your desired color */
+  z-index: 1000; /* Ensures navigation bar is on top */
 }
 
 .navigation ul li {
