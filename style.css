@@ -287,7 +287,6 @@ blockquote p {
   color: #fff;
   border: 2px solid #fff;
   background: transparent;
-  justify-content: center; 
   
 }
 
@@ -300,8 +299,11 @@ blockquote p {
   border-color: #1f3250;
   color: #e1742a;
 }
-
-
+.btn-CTAcontainer {
+  display: flex;
+  justify-content: center;
+  width:auto;
+}
 
 /* *********************************************************
   Header 
