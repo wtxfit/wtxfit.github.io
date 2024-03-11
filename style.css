@@ -287,7 +287,6 @@ blockquote p {
   color: #fff;
   border: 2px solid #fff;
   background: transparent;
-  display: flex;
   justify-content: center; 
   
 }
