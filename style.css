@@ -66,7 +66,7 @@ body {
   line-height: 1.7em;
   color: #777777;
   font-weight: normal;
-  padding-top: 70px;
+  padding-top: 20px;
 }
 
 body, input, textarea {
@@ -415,8 +415,6 @@ blockquote p {
   position: fixed;
   float: right;
   margin: 0;
-  top: 0; /* Added */
-  left: 0; /* Added */
   width: 100%;
   background-color: #1f3250; 
   z-index: 1000; /* Ensures navigation bar is on top */
