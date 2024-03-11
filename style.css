@@ -300,9 +300,9 @@ blockquote p {
   color: #e1742a;
 }
 .btn-CTAcontainer {
-  display: flex;
   align: center;
   width:auto;
+  padding: 10px 400px;
 }
 
 /* *********************************************************
