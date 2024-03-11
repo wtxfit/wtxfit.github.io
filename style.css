@@ -287,6 +287,10 @@ blockquote p {
   color: #fff;
   border: 2px solid #fff;
   background: transparent;
+  display: flex;
+  justify-content: center; 
+  width: 100%;
+  
 }
 
 .btn-ghost:hover {
@@ -298,6 +302,8 @@ blockquote p {
   border-color: #1f3250;
   color: #e1742a;
 }
+
+
 
 /* *********************************************************
   Header 
