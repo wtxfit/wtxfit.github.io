@@ -301,7 +301,7 @@ blockquote p {
 }
 .btn-CTAcontainer {
   display: flex;
-  justify-content: center;
+  align: center;
   width:auto;
 }
 
