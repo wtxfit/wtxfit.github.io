@@ -2918,7 +2918,7 @@ ul.footer-social-links li a:after {
   left: 0;
   right: 0;
   height: 1px;
-  background: #fe8869;
+  background: #e89760;
   opacity: 0;
   -webkit-transform: translateY(5px);
      -moz-transform: translateY(5px);
@@ -2951,7 +2951,7 @@ p.copyright {
 
 .back-to-top {
   text-align: center;
-  background: #ed4d2b;
+  background: #e1742a;
   color: #fff;
   display: none;
   width: 40px;
