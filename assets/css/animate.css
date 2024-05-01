@@ -742,6 +742,13 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-o-animation-name: fadeInUp;
 	animation-name: fadeInUp;
 }
+
+@media screen and (max-width: 767px) {
+  .fadeInUp {
+    animation: none; /* Remove the animation */
+  }
+}
+
 @-webkit-keyframes fadeInDown {
 	0% {
 		opacity: 0;
@@ -796,6 +803,13 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-o-animation-name: fadeInDown;
 	animation-name: fadeInDown;
 }
+
+@media screen and (max-width: 767px) {
+  .fadeInDown {
+    animation: none; /* Remove the animation */
+  }
+}
+
 @-webkit-keyframes fadeInLeft {
 	0% {
 		opacity: 0;
@@ -850,6 +864,13 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-o-animation-name: fadeInLeft;
 	animation-name: fadeInLeft;
 }
+
+@media screen and (max-width: 767px) {
+  .fadeInLeft {
+    animation: none; /* Remove the animation */
+  }
+}
+	
 @-webkit-keyframes fadeInRight {
 	0% {
 		opacity: 0;
@@ -903,6 +924,12 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-moz-animation-name: fadeInRight;
 	-o-animation-name: fadeInRight;
 	animation-name: fadeInRight;
+}
+
+@media screen and (max-width: 767px) {
+  .fadeInRight {
+    animation: none; /* Remove the animation */
+  }
 }
 @-webkit-keyframes fadeInUpBig {
 	0% {
