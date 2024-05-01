@@ -745,7 +745,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 
 @media screen and (max-width: 767px) {
   .fadeInUp {
-    animation: none; /* Remove the animation */
+    animation-delay: 0.1s;
   }
 }
 
@@ -806,7 +806,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 
 @media screen and (max-width: 767px) {
   .fadeInDown {
-    animation: none; /* Remove the animation */
+    animation-delay: 0.1s;
   }
 }
 
@@ -867,7 +867,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 
 @media screen and (max-width: 767px) {
   .fadeInLeft {
-    animation: none; /* Remove the animation */
+    animation-delay: 0.1s;
   }
 }
 	
@@ -928,7 +928,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 
 @media screen and (max-width: 767px) {
   .fadeInRight {
-    animation: none; /* Remove the animation */
+    animation-delay: 0.1s;
   }
 }
 @-webkit-keyframes fadeInUpBig {
