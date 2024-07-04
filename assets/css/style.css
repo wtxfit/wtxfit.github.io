@@ -1819,6 +1819,18 @@ ul.details-list li:last-child {
   z-index: 1;
 }
 
+.landing-hero-half:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 50%;
+  z-index: 1;
+}
+
+
 .landing-hero {
   background: url('../images/hero-bg/landing.jpg');
   background-size: cover;
