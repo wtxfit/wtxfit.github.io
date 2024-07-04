@@ -486,6 +486,17 @@ p {
   z-index: 1;
 }
 
+.home-hero-half:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 50%;
+  z-index: 1;
+}
+
 .home-hero {
   background: url('../images/hero-bg/home.jpg');
   background-size: cover;
@@ -565,6 +576,18 @@ p {
   z-index: 2;
   text-align: center;
 }
+
+.hero-content-half {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+  z-index: 2;
+  text-align: center;
+}
+
 
 .hero-content h1, p.hero {
   color: #fff;
