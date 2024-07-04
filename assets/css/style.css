@@ -132,7 +132,7 @@ img {
 }
 
 .auxiliary-page #hero-section {
-    height: 50vh; /* Half height */
+    height: 50vh !important; /* Half height */
 }
 
 /***********************************************************************************************/
