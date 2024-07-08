@@ -938,30 +938,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     var $mcj = jQuery.noConflict(true);
   </script>
   
-  <script type='text/javascript'>
-    document.getElementById('mc-embedded-subscribe-form').addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent the form from submitting normally
-  
-      // Submit the form via AJAX
-      $.ajax({
-        url: 'https://wtxfit.us18.list-manage.com/subscribe/post-json?u=a82eb4743e272f53d4954b8e2&id=2f8987f60e&f_id=00c2c2e1f0&c=?',
-        dataType: 'jsonp',
-        jsonp: 'c',
-        data: $('#mc-embedded-subscribe-form').serialize(),
-        success: function(response) {
-          if (response.result === 'success') {
-            $('#mc-embedded-subscribe-form').hide();
-            $('#subscribe-success').show();
-          } else {
-            alert('Subscription failed: ' + response.msg);
-          }
-        },
-        error: function(response) {
-          alert('Error: ' + response.statusText);
+ <script type='text/javascript'>
+  document.getElementById('mc-embedded-subscribe-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+
+    // Submit the form via AJAX
+    $.ajax({
+      url: 'https://wtxfit.us18.list-manage.com/subscribe/post-json?u=a82eb4743e272f53d4954b8e2&id=2f8987f60e&f_id=00c2c2e1f0&c=?',
+      dataType: 'jsonp',
+      jsonp: 'c',
+      data: $('#mc-embedded-subscribe-form').serialize(),
+      success: function(response) {
+        if (response.result === 'success') {
+          $('#mc-embedded-subscribe-form').hide();
+          $('#subscribe-success').show(); // Show the success message
+        } else {
+          alert('Subscription failed: ' + response.msg);
         }
-      });
+      },
+      error: function(response) {
+        alert('Error: ' + response.statusText);
+      }
     });
-  </script>
+  });
+</script>
 
 	
 	
