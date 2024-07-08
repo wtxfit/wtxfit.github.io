@@ -709,41 +709,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="sep-section"></div>
     </section>
 
-	 <section>
-      <div id="subscribe-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
-              <div class="newsletter-title text-center">
-                <h4>Sign up for our monthly newsletter</h4>
-              </div> <!-- end newsletter-title -->
-              <form action="https://wtxfit.us18.list-manage.com/subscribe/post?u=a82eb4743e272f53d4954b8e2&amp;id=2f8987f60e&amp;f_id=00c2c2e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline subscription-form mailchimp" target="_self" novalidate="">
-                  
-                <!-- Email input -->
-                <div class="form-group newsletter-field">
-		<label for="mce-EMAIL">Email Address</label><input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" required="" value="">
-		</div>
-              
-		<div hidden=""><input type="hidden" name="tags" value="40">
-		</div>
-      		  <div id="mce-responses" class="clear">
-			  <!-- Subscription messages -->
-                  <h5 class="subscription-success"></h5>
-                  <h5 class="subscription-error"></h5>
-          	 <!-- <div class="response" id="mce-error-response" style="display: none;"></div>
-           	 <div class="response" id="mce-success-response" style="display: none;"></div> -->
-        	</div>
-		<div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_a82eb4743e272f53d4954b8e2_2f8987f60e" tabindex="-1" value="">
-		</div>
-                <!-- Subscribe button -->
-                <button type="submit" id="subscribe-button" name="subscribe" id="mc-embedded-subscribe" class="btn btn-sm btn-dark">Subscribe</button>
-              </form>
-            </div> <!-- end col-sm-6 -->
-          </div> <!-- end row -->
-        </div> <!-- end container -->
-      </div> <!-- end subscribe-section -->
-    </section>
+	<section>
+  <div id="subscribe-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+          <div class="newsletter-title text-center">
+            <h4>Sign up for our monthly newsletter</h4>
+          </div> <!-- end newsletter-title -->
+          <div id="mc_embed_signup">
+            <form action="https://wtxfit.us18.list-manage.com/subscribe/post?u=a82eb4743e272f53d4954b8e2&amp;id=2f8987f60e&amp;f_id=00c2c2e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div class="form-group newsletter-field">
+                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                <input type="email" name="EMAIL" class="required email form-control" id="mce-EMAIL" required placeholder="cool.guy@youremail.com">
+              </div>
+              <div hidden=""><input type="hidden" name="tags" value="40"></div>
+              <div class="clear">
+                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-sm btn-dark">Subscribe</button>
+              </div>
+		<div id="subscribe-success" style="display:none; color:green;">Success! Thanks for subscribing.</div>    
+            </form>
+          </div>
+        </div> <!-- end col-sm-6 -->
+      </div> <!-- end row -->
+    </div> <!-- end container -->
+  </div> <!-- end subscribe-section -->
+</section>
     <!-- End subscribe section -->
+
+
+
 	
 
 
@@ -923,8 +918,52 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="assets/js/fontawesome.min.js"></script>
 
 
-</script>
 
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript'>
+    (function($) {
+      window.fnames = new Array(); 
+      window.ftypes = new Array();
+      fnames[0]='EMAIL';
+      ftypes[0]='email';
+      fnames[1]='FNAME';
+      ftypes[1]='text';
+      fnames[2]='LNAME';
+      ftypes[2]='text';
+      fnames[3]='ADDRESS';
+      ftypes[3]='address';
+      fnames[4]='PHONE';
+      ftypes[4]='phone';
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
+  </script>
+  
+  <script type='text/javascript'>
+    document.getElementById('mc-embedded-subscribe-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the form from submitting normally
+  
+      // Submit the form via AJAX
+      $.ajax({
+        url: 'https://wtxfit.us18.list-manage.com/subscribe/post-json?u=a82eb4743e272f53d4954b8e2&id=2f8987f60e&f_id=00c2c2e1f0&c=?',
+        dataType: 'jsonp',
+        jsonp: 'c',
+        data: $('#mc-embedded-subscribe-form').serialize(),
+        success: function(response) {
+          if (response.result === 'success') {
+            $('#mc-embedded-subscribe-form').hide();
+            $('#subscribe-success').show();
+          } else {
+            alert('Subscription failed: ' + response.msg);
+          }
+        },
+        error: function(response) {
+          alert('Error: ' + response.statusText);
+        }
+      });
+    });
+  </script>
+
+	
 	
 </body>
 </html>
